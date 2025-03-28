@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0;
-    border-right: 60px solid #17274c;
+    border-right: 60px solid #0c7e14;
     border-bottom: 100vh solid transparent;
     box-sizing: border-box;
 }
@@ -46,7 +46,7 @@ body {
 .div-2 {
     width: calc(50% + 40px);
     height: 100%;
-    background: #17274c;
+    background: #0c7e14;
 }
 
 #coin-container {
@@ -80,13 +80,14 @@ body {
 }
 
 #coin-form button {
-    background-color: #0ea518;
+    background-color: #17274c;
     color: white;
     cursor: pointer;
+    font-size: 20px;
 }
 
 #coin-form button:hover {
-    background-color: #0c7e14;
+    background-color: #011B32;
 }
 
 #coin-info {
@@ -96,6 +97,7 @@ body {
     align-items: center;
     margin-top: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 .loader {
@@ -121,14 +123,28 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    #container {
+        background-color: #011B32;
+        background-image: url("img/fondo2.jpg");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .div-1{
         display: none;
     }
     .div-2{
         width: 100%;
+        background: #011b3261;
     }
     #coin-form {
         padding-right: 0;
         padding: 30px;
+    }
+    #coin-form button{
+        background: #18b923;
+    }
+    #coin-form button:hover{
+        background: #25d732;
     }
 }

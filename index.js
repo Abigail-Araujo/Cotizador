@@ -32,9 +32,9 @@ form.addEventListener("submit", async (event) => {
 
       coinInfo.innerHTML = `
         <p class="info">El precio es: <span class="price">${price}</span></p>
-                <p class="info">El precio mas alto es: <span class="price">${priceHigh}</span></p>
-                <p class="info">El precio mas bajo es: <span class="price">${priceLow}</span></p>
-                <p class="info">Variacion 24H: <span class="price">${variation}%</span></p>
+                <p class="info">El precio más alto es: <span class="price">${priceHigh}</span></p>
+                <p class="info">El precio más bajo es: <span class="price">${priceLow}</span></p>
+                <p class="info">Variación 24H: <span class="price">${variation}%</span></p>
                 <p class="info">Puede comprar: <span class="price">${result.toFixed(
                   4
                 )} ${cryptoSelected}</span></p>
@@ -42,9 +42,9 @@ form.addEventListener("submit", async (event) => {
     } else {
       coinInfo.innerHTML = `
         <p class="info">El precio es: <span class="price">${price}</span></p>
-                <p class="info">El precio mas alto es: <span class="price">${priceHigh}</span></p>
-                <p class="info">El precio mas bajo es: <span class="price">${priceLow}</span></p>
-                <p class="info">Variacion 24H: <span class="price">${variation}%</span></p>
+                <p class="info">El precio más alto es: <span class="price">${priceHigh}</span></p>
+                <p class="info">El precio más bajo es: <span class="price">${priceLow}</span></p>
+                <p class="info">Variación 24H: <span class="price">${variation}%</span></p>
         `;
     }
   } catch (error) {
